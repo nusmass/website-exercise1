@@ -1,0 +1,29 @@
+.footer {
+  background-color: #4682A9;
+  height: 100px;
+}
+
+.footer > p {
+  color: #F6F4EB;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.link-twitter {
+  color: #91C8E4;
+}
+
+.link-twitter:hover {
+  color: #F6F4EB;
+}
+
+.twitter-text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 26px;
+}
+
+.footer-text {
+  font-size: 14px;
+}

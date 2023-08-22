@@ -1,0 +1,40 @@
+.header-container {
+  height: 400px;
+  padding-bottom: 10px;
+  background-color: #F6F4EB;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title,
+.subtitle {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title {
+  color: #4682A9;
+  font-size: 80px;
+}
+
+.subtitle {
+  color: #4682A9;
+}
+
+@media (max-width: 700px) {
+  .header-container {
+    justify-content: center;
+  }
+  
+  .title,
+  .subtitle {
+    margin-left: 30px;
+  }
+  
+  .subtitle {
+    width: 500px;
+  }
+}
